@@ -151,7 +151,7 @@ function FindProxyForURL(url, host) {
     return proxy;
 }
 
-var allowAlert = true
+var allowAlert = false
 function debug(msg, host, ip) {
     if (!allowAlert) {
         return
